@@ -1,0 +1,48 @@
+(referencia, preco, preco_usd, moeda, tipo_propriedade, tipo_negocio, descricao_negocio, 
+n_quartos, n_casas_de_banho, area_da_casa, area_total, titulo, descricao, destaque, ano_contrucao
+, plantas, Internal_id, id_feature)
+VALUES
+('$reference', '$price', '$price_usd', '$Currency', '$PropertyType', '$PropertyBusinessType',
+ '$PropertyBusinessTypeDesc', '$NumberOfRooms', '$NumberOfBathrooms', '$HouseArea', 
+ '$HouseAreaSQF', '$Title', '$Description', '$Featured_p', '$BuildYear', '$FloorPlans', 
+ '$internal_id', (SELECT id_feature FROM feature WHERE feature_type='$Feature'
+
+
+
+
+
+
+        $titulo_lang[$y] = $culturas->title;
+        $shortdescription[$y] = $culturas->shortdescription;
+        $description[$y] = $culturas->description;
+			
+		<td>Condição da Propriedade: <?php echo $PropertyCondition; ?><br></td>
+
+		<td>PlotArea: <?php echo $PlotArea; ?><br></td>
+		<td>PlotAreaSQF: <?php echo $PlotAreaSQF; ?><br></td>
+
+        		<!-- //PROPERTY STATUS START\\ -->
+			<td>OnFocus: <?php echo $OnFocus ?><br></td>
+			<td>Opurtunidade: <?php echo $Opportunity; ?><br></td>
+			<td>Featured: <?php echo $Featured; ?><br></td>
+		<!-- //PROPERTY STATUS END\\ -->
+
+
+$sql_propriedades = "INSERT INTO propriedades (referencia, preco, preco_usd, moeda, 
+tipo_propriedade, tipo_negocio, descricao_negocio, n_quartos, n_casas_de_banho, area_da_casa, 
+area_total, titulo, descricao, destaque, ano_contrucao, plantas, Internal_id, condicao_propriedade, plot_area, plot_area_SQF,id_feature)
+VALUES ('$reference', '$price', '$price_usd', '$Currency', '$PropertyType', '$PropertyBusinessType', '$PropertyBusinessTypeDesc', '$NumberOfRooms', '$NumberOfBathrooms', '$HouseArea', '$HouseAreaSQF', '$Title', '$Description', '$Featured_p', '$BuildYear', '$FloorPlans', '$internal_id', '$PropertyCondition', '$PlotArea', '$PlotAreaSQF', (SELECT id_feature FROM feature WHERE feature_type='$Feature'));";";
+
+
+
+
+
+$sql_p_status = "INSERT INTO property_status(id_propriedade, onfocus, opurtunidade, featured)
+VALUES ((SELECT id_propriedade FROM propriedades WHERE reference='$reference'), '$Opportunity', '$Featured')
+";
+
+
+
+$sql_p_cultures = "INSERT INTO culturas(id_propriedade, titulo_cult, shortdescription_cult, description_cult, lang)
+VALUES ((SELECT id_propriedade FROM propriedades WHERE reference='$reference'), '$titulo_lang', '$shortdescription', '$lingua')
+";

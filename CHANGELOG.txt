@@ -1,0 +1,16 @@
+FEITO:
+- LOGIN/REGISTO COM ENCRIPTAÇÃO/HASH DE PASSWORD
+- LISTAGEM de imóveis por ID e seguidos
+- EDITAR DADOS / DEFINIÇÕES
+- Pesquisa (por texto, por número de quartos/wc's, por tipo de propriedaded(villa/apartment) e por descrição de venda (aluguer/venda)
+- OS AGENTES E OS ADMINISTRADORES TÊM A POSSIBLIDADE DE ADICIONAR IMÓVEIS COM MÚLTIPLAS IMAGENS
+- OS AGENTES TÊM A POSSIBLIDADE DE EDITAR OS SEUS IMÓVEIS ADICIONADOS
+- NA PÁGINA DE CADA PROPRIEDADE AGORA ENCONTRA-SE INFORMAÇÃO SOBRE ESSE UTILIZADOR
+- FAVORITOS
+- Design do cabeçalho se adaptar a todas as páginas sem interfir com o conteúdo Main
+- Traduções
+
+QUASE ACABADO/PRECISA DE MELHORAMENTO:
+
+
+
