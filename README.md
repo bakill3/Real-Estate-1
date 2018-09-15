@@ -34,7 +34,7 @@ Features:
     
   - Search Properties (Min/Max Price/SQ FT; Nª Bathrooms/Bedrooms; Property Type & Property Status);
   
-  ![](https://thumb.gyazo.com/thumb/800_w/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbWciOiJfNmJlMTcwNmYwZGVhNzY4YjY2NmZmNmYwNTI5MWE2MDUifQ.vK95l_X5AdsPd99-5bGIjdXXpQgtmpWEae6gFF7-hLw-gif.gif)
+  ![](gif.gif)
 
   
   ![alt text](https://github.com/bakill3/Real-Estate-1/blob/master/real.png)
