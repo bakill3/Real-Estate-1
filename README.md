@@ -37,7 +37,6 @@ Features:
   ![](gif.gif)
 
   
-  ![alt text](https://github.com/bakill3/Real-Estate-1/blob/master/real.png)
 
   
   
