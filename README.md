@@ -1,7 +1,7 @@
-# Real-Estate-1
-Real Estate Website #1 made in internship.
+# Full Real Estate
+Real Estate Website that contains all the necessary features.
 
-Features:
+## Features:
   - Login/Register;
   - Properties:
     - Keywords & Features;
