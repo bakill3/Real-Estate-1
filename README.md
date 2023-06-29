@@ -1,44 +1,44 @@
-# Full Real Estate
-Real Estate Website that contains all the necessary features.
+# **Full Real Estate**
+An all-inclusive real estate website offering a comprehensive set of features to facilitate seamless property transactions.
 
 ![Real-Estate-1](https://socialify.git.ci/bakill3/Real-Estate-1/image?language=1&name=1&owner=1&pattern=Floating%20Cogs&stargazers=1&theme=Light)
-## Features:
-  - Login/Register;
-  - Properties:
-    - Keywords & Features;
-    - Price EUR/USD;
-    - Property Type (Villa/Apartment);
-    - Sale Status (For Sale/ For Rental);
-    - Images (SlideShow);
-    - Description;
-    - Reference;
-    - Location (Country, District, City);
-    - Number of Bedrooms/WC'S;
-    - Total Area;
-    - House Area;
-    - Business Description;
-    - Plot Area;
-    - Plot Area SQF;
-    - Property Condition;
-    - Year that was built;
-    - Internal ID;
-    - Map (Latitude & Longitude);
-    - Small profile of the agent;
-    
-  - Favorites
-  - Translation to French/English/Portuguese
-  - Back-Office:
-    - Add Property;
-    - Edit Users (Make a user Agent/Administrator);
-    - Edit Properties;
-    - Edit Profile;
-    
-  - Search Properties (Min/Max Price/SQ FT; Nª Bathrooms/Bedrooms; Property Type & Property Status);
-  
-  ![](gif.gif)
 
-  
+## **Features:**
 
-  
-  
-  
+### **User Authentication:**
+  - Enables users to register and login to access personalized features and manage their properties.
+
+### **Property Listings:**
+#### Detailed property listings encompassing an extensive array of information including: ####
+- Keywords & Features
+- Price (EUR/USD)
+- Property Type (Villa/Apartment)
+- Sale Status (For Sale/For Rent)
+- Image Slideshow
+- Description & Reference
+- Location Details (Country, District, City)
+- Specification of Bedrooms & Bathrooms
+- Total Area & House Area
+- Business Description
+- Plot Area (in SQF)
+- Property Condition & Year Built
+- Internal ID
+- Map Location (Latitude & Longitude)
+- Agent's Brief Profile
+
+### **Favorites:**
+  - Users can mark properties as favorites for easy future reference.
+
+### **Multilingual Support:**
+  - Website content can be translated to French, English, and Portuguese, enhancing user accessibility.
+
+### **Back-Office:**
+#### Admin interface to manage the platform: ####
+- Add/Edit Properties
+- Edit Users (Assign roles such as Agent/Administrator)
+- Edit Profile
+
+### **Property Search:**
+  - Advanced search feature allowing users to filter properties based on criteria such as min/max price, area (SQ FT), number of bathrooms/bedrooms, property type, and property status.
+
+![Property Management](gif.gif)
